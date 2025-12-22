@@ -1965,13 +1965,33 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5c6184-9cfe-40dd-badb-c089ec194e4c")
+	)
+	(wire
+		(pts
 			(xy 99.06 78.74) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "841608f0-e06a-41c1-8e73-4436186a686e")
+		(uuid "60b889b3-84e6-49b9-9c5a-72cf8a10a6c5")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7aade8-4d92-44fa-84ab-0db736b7f9db")
 	)
 	(wire
 		(pts
@@ -1991,27 +2011,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b5b245da-3c1c-462a-935c-38713cddb4a4")
-	)
-	(wire
-		(pts
-			(xy 99.06 90.17) (xy 114.3 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ae7096-4450-4fd6-a3a5-98f8464dd554")
-	)
-	(wire
-		(pts
-			(xy 96.52 95.25) (xy 114.3 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d2be52-c8c3-4323-8898-4f2d88a7fb3d")
+		(uuid "dd212de4-6283-43df-b97e-0fecb9393542")
 	)
 	(label "CLK"
 		(at 107.95 87.63 0)
@@ -2024,7 +2024,7 @@
 		(uuid "0d6a81cb-53eb-40b4-bc86-10a9c12aed39")
 	)
 	(label "CS"
-		(at 107.95 90.17 0)
+		(at 107.95 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2034,7 +2034,7 @@
 		(uuid "1f05784a-363d-4e57-9dc6-561c921e9b44")
 	)
 	(label "DOUT"
-		(at 107.95 95.25 0)
+		(at 107.95 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
