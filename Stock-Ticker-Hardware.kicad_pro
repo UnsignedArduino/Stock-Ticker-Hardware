@@ -567,7 +567,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
