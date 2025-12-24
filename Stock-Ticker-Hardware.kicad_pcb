@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Stock Ticker Hardware")
-		(rev "1")
+		(rev "${VERSION}")
 	)
 	(layers
 		(0 "F.Cu" mixed)
@@ -116,6 +116,7 @@
 			(outputdirectory "./gerbers")
 		)
 	)
+	(property "VERSION" "1")
 	(net 0 "")
 	(net 1 "unconnected-(A1-3V3_EN-Pad37)")
 	(net 2 "unconnected-(A1-GPIO8-Pad11)")
@@ -1706,7 +1707,7 @@
 		(descr "JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J1"
-			(at 5 -3.55 0)
+			(at -4.3 -2.175 0)
 			(layer "F.SilkS")
 			(uuid "03dc2c02-1723-428a-9f46-4d1a13ac52ad")
 			(effects
@@ -3871,7 +3872,7 @@
 			(at 11.7475 24.765 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f15e4515-7478-4489-8fb2-7b3095aae8c5")
+			(uuid "b8f2aa47-88c5-492a-a5f2-112755634d92")
 			(effects
 				(font
 					(size 1 1)
@@ -3884,7 +3885,7 @@
 			(at 0 27.94 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4565a960-6e6a-40d2-b967-68a4c6b932f0")
+			(uuid "0c40b8cd-1580-4ee8-aabb-303c2e775378")
 			(effects
 				(font
 					(size 1 1)
@@ -3896,7 +3897,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "658e1fa8-b4d8-4c9e-8203-b8f815990bbb")
+			(uuid "fc9ec679-b7cf-47f9-8ee2-ea1e4d1264c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3909,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d90588cc-d7ce-4546-9414-e3d452411c44")
+			(uuid "7e97b7fe-103a-4e34-a6c2-b81e7d4cafdc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,6 +6848,241 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "90289cf7-16d2-4fd3-87a8-379fd80ad70b")
+	)
+	(gr_text "SWD"
+		(at 75 98.5 0)
+		(layer "F.SilkS")
+		(uuid "0be8ffbe-79a2-4f88-8854-c934806ce79c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "2"
+		(at 63 96 90)
+		(layer "F.SilkS")
+		(uuid "1042541e-9b3d-4ebc-a69d-c1f83522cd73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "UART"
+		(at 83.8 95.9 90)
+		(layer "F.SilkS")
+		(uuid "13eaa375-0d6b-4e2b-84be-c03491d91fba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "4"
+		(at 92.5 56.485 90)
+		(layer "F.SilkS")
+		(uuid "1797856f-1f88-46ea-b704-23496739b1a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "1"
+		(at 77.5 96 90)
+		(layer "F.SilkS")
+		(uuid "1d4ba9d0-6bf6-4d95-b1cf-d88ececfadfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "3"
+		(at 72.5 96 90)
+		(layer "F.SilkS")
+		(uuid "1d6a3d03-00bc-4080-af67-17ef5797d3f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "3"
+		(at 95 56.475 90)
+		(layer "F.SilkS")
+		(uuid "1f40ce2b-039c-42f0-acac-0972335c126d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "2"
+		(at 97.5 56.475 90)
+		(layer "F.SilkS")
+		(uuid "26c0593b-ea2e-4c1a-8f60-7c3c86433552")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "UART"
+		(at 63 98.5 0)
+		(layer "F.SilkS")
+		(uuid "34b454a5-a747-4383-89ba-75952fb6dfe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "SWD"
+		(at 94.3 95.9 90)
+		(layer "F.SilkS")
+		(uuid "3ffce4b9-a706-49dc-8875-f496efeac611")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "1 TX\n2 GND\n3 RX"
+		(at 85 95.9 0)
+		(layer "F.SilkS")
+		(uuid "76ae1efd-1363-4e87-bae7-744ece73d8f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "5"
+		(at 90 56.475 90)
+		(layer "F.SilkS")
+		(uuid "77ceac73-0662-47b6-ba76-020aa256749c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "MAX7219\nline"
+		(at 105.4 59.9 0)
+		(layer "F.SilkS")
+		(uuid "83e40ced-18bc-46fd-8bf5-91c796b14271")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "1 CLK\n2 GND\n3 DIO"
+		(at 95.5 95.9 0)
+		(layer "F.SilkS")
+		(uuid "97fb4b04-4375-4a8b-947d-73e9834b55b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "1"
+		(at 65.58 95.83 90)
+		(layer "F.SilkS")
+		(uuid "a867f33c-74ee-4da5-894a-dded7c75f124")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "3"
+		(at 60.5 96 90)
+		(layer "F.SilkS")
+		(uuid "ad8045bf-9e1a-4ccb-bdc0-93ad932a3c0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "1"
+		(at 100 56.5 90)
+		(layer "F.SilkS")
+		(uuid "ccef55c5-b7fa-4333-967e-5d23ea970b3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "2"
+		(at 75 96 90)
+		(layer "F.SilkS")
+		(uuid "ddf982d1-dbad-4e18-a3f3-c07e2d058b5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "1 CLK\n2 CS\n3 DOUT\n4 GND\n5 5V"
+		(at 102.3 62.7 0)
+		(layer "F.SilkS")
+		(uuid "eec45fba-8c5a-4dc5-9b62-be23c2d1a598")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "https://github.com/\nUnsignedArduino/\nStock-Ticker-Hardware\n\nRev ${VERSION}"
+		(at 109 81 0)
+		(layer "B.SilkS")
+		(uuid "77c54837-2665-49f1-9f26-c49bb3e3abf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+			(justify left mirror)
+		)
 	)
 	(segment
 		(start 55.829188 94.5)

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Stock Ticker Hardware")
-		(rev "1")
+		(rev "${VERSION}")
 	)
 	(lib_symbols
 		(symbol "74xx:74AHCT125"
