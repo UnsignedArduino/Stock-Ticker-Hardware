@@ -1756,7 +1756,7 @@
 		(path "/5eeb5a4d-8829-4098-a952-091d7cc14e14")
 		(sheetname "/")
 		(sheetfile "Stock-Ticker-Hardware.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 3.92)
 			(end 1.38 3.92)
@@ -3032,7 +3032,7 @@
 		(path "/6c5646ba-d89f-44c4-8791-bf361114615e")
 		(sheetname "/")
 		(sheetfile "Stock-Ticker-Hardware.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 3.92)
 			(end 1.38 3.92)
@@ -7400,7 +7400,7 @@
 		(path "/2975b9e4-05fd-4354-b8f4-5231826b9f4e")
 		(sheetname "/")
 		(sheetfile "Stock-Ticker-Hardware.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.38 1.27)
 			(end 1.38 3.92)
